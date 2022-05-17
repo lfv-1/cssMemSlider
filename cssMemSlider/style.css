@@ -142,6 +142,9 @@ input[type=button] {width: auto; overflow: visible;}
 .clearfix { zoom: 1; }
 
 
+
+/*start*/
+
 body{
 	background-color: #000;
 }
@@ -310,6 +313,12 @@ label {
 #slide4:checked ~ .name-mem > .controls label:nth-of-type(4) span{
 	background: transparent;
 }
+
+label:hover, 
+label:focus{
+	background: #ccc;
+}
+
 
 @media (max-width:768px) {
 	.name-mem{
